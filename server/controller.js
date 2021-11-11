@@ -96,7 +96,7 @@ module.exports = {
       .query(
         `
       UPDATE cc_appointments AS a
-      SET approved = True
+      SET completed = True
       WHERE a.appt_id = ${apptId}
       `
       )
